@@ -7,4 +7,20 @@ Version: 1.0
 Template: twentysixteen
 */
 
-@import url("../twentysixteen/style.css")
+@import url("../twentysixteen/style.css");
+
+.site-branding .site-title a {
+    color: #00b9eb;
+}
+
+.site-branding .site-title a:hover, .site-branding .site-title a:focus {
+    color: #b14e10;
+}
+
+.site-description {
+    font-size: 1.2rem;
+}
+
+.site {
+    background-color: #e4abe4;
+}
